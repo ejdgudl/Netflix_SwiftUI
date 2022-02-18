@@ -18,6 +18,7 @@
 		D39B04C327BFBBDD009347A6 /* GlobalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39B04C227BFBBDD009347A6 /* GlobalHelpers.swift */; };
 		D39B04C527BFBDB2009347A6 /* HomeVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39B04C427BFBDB2009347A6 /* HomeVM.swift */; };
 		D39B04C727BFD790009347A6 /* TopMovieReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39B04C627BFD790009347A6 /* TopMovieReview.swift */; };
+		D39B04C927BFE7BE009347A6 /* SmallVerticalButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39B04C827BFE7BE009347A6 /* SmallVerticalButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D39B04C227BFBBDD009347A6 /* GlobalHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHelpers.swift; sourceTree = "<group>"; };
 		D39B04C427BFBDB2009347A6 /* HomeVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVM.swift; sourceTree = "<group>"; };
 		D39B04C627BFD790009347A6 /* TopMovieReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMovieReview.swift; sourceTree = "<group>"; };
+		D39B04C827BFE7BE009347A6 /* SmallVerticalButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallVerticalButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			children = (
 				D39B04B927BFB93D009347A6 /* HomeView.swift */,
 				D39B04C627BFD790009347A6 /* TopMovieReview.swift */,
+				D39B04C827BFE7BE009347A6 /* SmallVerticalButton.swift */,
 				D39B04C427BFBDB2009347A6 /* HomeVM.swift */,
 				D39B04BE27BFBB62009347A6 /* Movie.swift */,
 				D39B04C027BFBB9D009347A6 /* StandardHomeMovie.swift */,
@@ -179,6 +182,7 @@
 				D39B04C127BFBB9D009347A6 /* StandardHomeMovie.swift in Sources */,
 				D39B04BF27BFBB62009347A6 /* Movie.swift in Sources */,
 				D39B04AB27BFB6FC009347A6 /* Netflix_SwiftUIApp.swift in Sources */,
+				D39B04C927BFE7BE009347A6 /* SmallVerticalButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

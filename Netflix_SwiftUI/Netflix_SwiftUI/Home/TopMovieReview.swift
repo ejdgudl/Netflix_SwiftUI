@@ -33,9 +33,27 @@ struct TopMovieReview: View {
                     }
                 }
                 HStack {
-                    Text("My List")
-                    Text("Play button")
-                    Text("Info button")
+                    Spacer()
+                    SmallVerticalButton(
+                        text: "My List"
+                        , isOnImage: "checkmark"
+                        , isOffImage: "plus"
+                        , isOn: true) {
+                            
+                        }
+                    Spacer()
+                    WhiteButton(text: "play", imageName: "play.fill") {
+                        
+                    }.frame(width: 120)
+                    Spacer()
+                    SmallVerticalButton(
+                        text: "Info"
+                        , isOnImage: "info.circle"
+                        , isOffImage: "info.circle"
+                        , isOn: true) {
+                            
+                        }
+                    Spacer()
                 }
             }
         }

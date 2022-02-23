@@ -45,6 +45,7 @@ struct Movie: Identifiable {
     }
     var creators: String
     var cast: String
+    var moreLikeThisMovies: [Movie]
 }
 
 struct CurrentEpisodeInfo: Hashable, Equatable {

@@ -18,7 +18,8 @@ let exampleMovie1 = Movie(
     numberOfSeasons: 1,
     defaultEPisodeInfo: exampleEpisodeInfo1,
     creators: "Baran bo Odan, Jantje Friese",
-    cast: "Louis Hofmann, Oliver Masucci, jordis Triebel")
+    cast: "Louis Hofmann, Oliver Masucci, jordis Triebel",
+    moreLikeThisMovies: [exampleMovie2, exampleMovie3, exampleMovie4, exampleMovie5, exampleMovie6])
 let exampleMovie2 = Movie(
     id: UUID().uuidString,
     name: "Travelers",
@@ -30,7 +31,8 @@ let exampleMovie2 = Movie(
     promotionHeadline: "Best Rated Show",
     defaultEPisodeInfo: exampleEpisodeInfo1,
     creators: "Baran bo Odan, Jantje Friese",
-    cast: "Louis Hofmann, Oliver Masucci, jordis Triebel")
+    cast: "Louis Hofmann, Oliver Masucci, jordis Triebel",
+    moreLikeThisMovies: [])
 let exampleMovie3 = Movie(
     id: UUID().uuidString,
     name: "Community",
@@ -41,7 +43,8 @@ let exampleMovie3 = Movie(
     numberOfSeasons: 3,
     defaultEPisodeInfo: exampleEpisodeInfo1,
     creators: "Baran bo Odan, Jantje Friese",
-    cast: "Louis Hofmann, Oliver Masucci, jordis Triebel")
+    cast: "Louis Hofmann, Oliver Masucci, jordis Triebel",
+    moreLikeThisMovies: [])
 let exampleMovie4 = Movie(
     id: UUID().uuidString,
     name: "Alone",
@@ -53,7 +56,8 @@ let exampleMovie4 = Movie(
     promotionHeadline: "New episodes coming soon",
     defaultEPisodeInfo: exampleEpisodeInfo1,
     creators: "Baran bo Odan, Jantje Friese",
-    cast: "Louis Hofmann, Oliver Masucci, jordis Triebel")
+    cast: "Louis Hofmann, Oliver Masucci, jordis Triebel",
+    moreLikeThisMovies: [])
 let exampleMovie5 = Movie(
     id: UUID().uuidString,
     name: "Hannibal",
@@ -64,7 +68,8 @@ let exampleMovie5 = Movie(
     numberOfSeasons: 5,
     defaultEPisodeInfo: exampleEpisodeInfo1,
     creators: "Baran bo Odan, Jantje Friese",
-    cast: "Louis Hofmann, Oliver Masucci, jordis Triebel")
+    cast: "Louis Hofmann, Oliver Masucci, jordis Triebel",
+    moreLikeThisMovies: [])
 let exampleMovie6 = Movie(
     id: UUID().uuidString,
     name: "After Life",
@@ -76,9 +81,12 @@ let exampleMovie6 = Movie(
     promotionHeadline: "Watch Season 6 Now",
     defaultEPisodeInfo: exampleEpisodeInfo1,
     creators: "Baran bo Odan, Jantje Friese",
-    cast: "Louis Hofmann, Oliver Masucci, jordis Triebel")
+    cast: "Louis Hofmann, Oliver Masucci, jordis Triebel",
+    moreLikeThisMovies: [])
 
-let exampleMovies: [Movie] = [exampleMovie1, exampleMovie2, exampleMovie3, exampleMovie4, exampleMovie5, exampleMovie6]
+var exampleMovies: [Movie] {
+    return [exampleMovie1, exampleMovie2, exampleMovie3, exampleMovie4, exampleMovie5, exampleMovie6].shuffled()
+}
 let exampleEpisodeInfo1 = CurrentEpisodeInfo(episodeName: "Beginnings and Endings", description: "Six months after the disappeaance, the police form a task force In 2052, Jonas learns that most of Winden perished in an apocalyptic event.", season: 2, episode: 1)
 
 extension LinearGradient {

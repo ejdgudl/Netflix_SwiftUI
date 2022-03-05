@@ -23,7 +23,7 @@ let exampleTrailer3 = Trailer(name: "The Mysterious", videoURL: exampleVideoURL,
 
 let exampleITrailers = [exampleTrailer1, exampleTrailer2, exampleTrailer3]
 
-let episode1 = Episode(name: "Beginnings",
+let episode1 = Episode(name: "Beginnings and Endings",
                        season: 1,
                        episodeNumber: 1,
                        thumbnailImageURLString: "https://picsum.photos/300/102",

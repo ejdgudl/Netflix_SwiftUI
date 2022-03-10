@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D32F6BAA27CFA6F2005725AB /* EpisodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32F6BA927CFA6F2005725AB /* EpisodeView.swift */; };
+		D32F6BAC27DA5D3E005725AB /* HomeStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32F6BAB27DA5D3E005725AB /* HomeStack.swift */; };
 		D38CA74827C65FAE0022557A /* MoreLikeThis.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38CA74727C65FAE0022557A /* MoreLikeThis.swift */; };
 		D38CA74A27C666990022557A /* Trailer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38CA74927C666990022557A /* Trailer.swift */; };
 		D38CA74C27C666E10022557A /* SwiftUIVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38CA74B27C666E10022557A /* SwiftUIVideoView.swift */; };
@@ -33,6 +34,7 @@
 
 /* Begin PBXFileReference section */
 		D32F6BA927CFA6F2005725AB /* EpisodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeView.swift; sourceTree = "<group>"; };
+		D32F6BAB27DA5D3E005725AB /* HomeStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStack.swift; sourceTree = "<group>"; };
 		D38CA74727C65FAE0022557A /* MoreLikeThis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreLikeThis.swift; sourceTree = "<group>"; };
 		D38CA74927C666990022557A /* Trailer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trailer.swift; sourceTree = "<group>"; };
 		D38CA74B27C666E10022557A /* SwiftUIVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIVideoView.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				D39B04B927BFB93D009347A6 /* HomeView.swift */,
+				D32F6BAB27DA5D3E005725AB /* HomeStack.swift */,
 				D39B04C427BFBDB2009347A6 /* HomeVM.swift */,
 			);
 			path = HomeViews;
@@ -257,6 +260,7 @@
 				D39B04C127BFBB9D009347A6 /* StandardHomeMovie.swift in Sources */,
 				D39B04BF27BFBB62009347A6 /* Movie.swift in Sources */,
 				D38CA74827C65FAE0022557A /* MoreLikeThis.swift in Sources */,
+				D32F6BAC27DA5D3E005725AB /* HomeStack.swift in Sources */,
 				D39B04AB27BFB6FC009347A6 /* Netflix_SwiftUIApp.swift in Sources */,
 				D3BB1B3B27C6698B006719F1 /* TrailerList.swift in Sources */,
 				D39B04C927BFE7BE009347A6 /* SmallVerticalButton.swift in Sources */,

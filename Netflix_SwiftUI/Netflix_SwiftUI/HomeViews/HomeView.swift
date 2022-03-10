@@ -29,29 +29,7 @@ struct HomeView: View {
                         .frame(width: screen.width)
                     .padding(.top, -110)
                     .zIndex(-1)
-                    ForEach(vm.allCategories, id: \.self) { category in
-                        VStack {
-                            HStack {
-                                Text(category)
-                                    .font(.title3)
-                                    .bold()
-                                Spacer()
-                            }
-                            ScrollView(.horizontal, showsIndicators: false) {
-                                HStack {
-                                    ForEach(vm.getMovie(forCat: category)) {
-                                        movie in
-                                        StandardHomeMovie(movie: movie)
-                                            .frame(width: 100, height: 200)
-                                            .padding(.horizontal, 20)
-                                            .onTapGesture {
-                                                movieDetailToShow = movie
-                                            }
-                                    }
-                                }
-                            }
-                        }
-                    }
+                    HomeStack(vm: vm, topRowSelection: topRowSelection, movieDetailToShow: $movieDetailToShow)
                 }
             }
             if movieDetailToShow != nil {

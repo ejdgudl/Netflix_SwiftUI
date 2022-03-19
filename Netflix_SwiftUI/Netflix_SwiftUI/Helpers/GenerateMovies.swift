@@ -88,7 +88,7 @@ func generateEpisodes(_ count: Int, forSeason season: Int) -> [Episode] {
         let desc = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at purus diam. Nullam a nulla a augue eleifend convallis ac vitae neque. Curabitur sit amet felis non libero consectetur euismod."
         let randLength = Int.random(in: 20..<59)
         
-        let episode = Episode(id: id, name: name, season: season, episodeNumber: num + 1, thumbnailImageURLString: thumbnail, description: desc, length: randLength, videoURL: exampleVideoURL)
+        let episode = Episode(id: id, name: name, season: season, episodeNumber: num + 1, thumbnailImageURLString: thumbnail, description: desc, length: randLength, vedioURL: exampleVideoURL)
         
         allEpisodes.append(episode)
     }

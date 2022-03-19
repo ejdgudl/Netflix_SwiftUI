@@ -32,6 +32,7 @@
 		D3BB1B3B27C6698B006719F1 /* TrailerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BB1B3A27C6698B006719F1 /* TrailerList.swift */; };
 		D3CE920027E55DCC0045805A /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE91FF27E55DCC0045805A /* SearchBar.swift */; };
 		D3CE920227E55EEC0045805A /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE920127E55EEC0045805A /* Colors.swift */; };
+		D3CE920427E575330045805A /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE920327E575330045805A /* ActivityIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		D3BB1B3A27C6698B006719F1 /* TrailerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerList.swift; sourceTree = "<group>"; };
 		D3CE91FF27E55DCC0045805A /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		D3CE920127E55EEC0045805A /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		D3CE920327E575330045805A /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 			children = (
 				D39B04C227BFBBDD009347A6 /* GlobalHelpers.swift */,
 				D3CE920127E55EEC0045805A /* Colors.swift */,
+				D3CE920327E575330045805A /* ActivityIndicator.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				D39B04C727BFD790009347A6 /* TopMovieReview.swift in Sources */,
 				D32F6BAA27CFA6F2005725AB /* EpisodeView.swift in Sources */,
 				D39B04C127BFBB9D009347A6 /* StandardHomeMovie.swift in Sources */,
+				D3CE920427E575330045805A /* ActivityIndicator.swift in Sources */,
 				D39B04BF27BFBB62009347A6 /* Movie.swift in Sources */,
 				D38CA74827C65FAE0022557A /* MoreLikeThis.swift in Sources */,
 				D32F6BAC27DA5D3E005725AB /* HomeStack.swift in Sources */,

@@ -9,8 +9,8 @@ import SwiftUI
 
 struct SearchView: View {
     @ObservedObject var vm = SearchVM()
-    
     @State private var searchText: String = ""
+    @State private var movieDetialShow: Movie? = nil
     
     var body: some View {
         
@@ -29,15 +29,20 @@ struct SearchView: View {
                     .padding()
                 ScrollView {
                     if vm.isShoingPopularMovies {
-                      Text("PopularMovies")
+                        PopularList(movies: vm.popularMovies, movieDetailToShow: $movieDetialShow)
                     }
                     if vm.viewState == .empty {
-                        Text("Empty")
+                        Text("Yout search did not have any results.")
+                            .bold()
+                            .padding(.top, 150)
                     } else if vm.viewState == .ready && !vm.isShoingPopularMovies {
                         Text("Ready")
                     }
                 }
                 Spacer()
+            }
+            if movieDetialShow != nil {
+                MovieDetail(movie: movieDetialShow!, movieDetailToShow: $movieDetialShow)
             }
         }
         .foregroundColor(.white)
@@ -47,5 +52,28 @@ struct SearchView: View {
 struct SearchView_Previews: PreviewProvider {
     static var previews: some View {
         SearchView()
+    }
+}
+
+struct PopularList: View {
+    var movies: [Movie]
+    @Binding var movieDetailToShow: Movie?
+    
+    var body: some View {
+        VStack {
+            HStack {
+                Text("Popular Searches")
+                    .bold()
+                    .font(.title3)
+                    .padding(.leading, 12)
+                Spacer()
+            }
+            LazyVStack {
+                ForEach(movies, id: \.id) { movie in
+                    PopularMovieView(movieDetailShow: $movieDetailToShow, movie: movie)
+                        .frame(height: 75)
+                }
+            }
+        }
     }
 }

@@ -37,6 +37,7 @@
 		D3CE920827E5A42F0045805A /* SearchVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE920727E5A42F0045805A /* SearchVM.swift */; };
 		D3CE920A27E5A83F0045805A /* GenerateMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE920927E5A83F0045805A /* GenerateMovies.swift */; };
 		D3CE924327E8E1970045805A /* PopularMovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE924227E8E1970045805A /* PopularMovieView.swift */; };
+		D3CE924527EC9A6E0045805A /* SearchResultsGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE924427EC9A6E0045805A /* SearchResultsGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		D3CE920727E5A42F0045805A /* SearchVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVM.swift; sourceTree = "<group>"; };
 		D3CE920927E5A83F0045805A /* GenerateMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateMovies.swift; sourceTree = "<group>"; };
 		D3CE924227E8E1970045805A /* PopularMovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMovieView.swift; sourceTree = "<group>"; };
+		D3CE924427EC9A6E0045805A /* SearchResultsGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,6 +196,7 @@
 			children = (
 				D3CE91FF27E55DCC0045805A /* SearchBar.swift */,
 				D3CE920527E5A3F10045805A /* SearchView.swift */,
+				D3CE924427EC9A6E0045805A /* SearchResultsGrid.swift */,
 				D3CE924227E8E1970045805A /* PopularMovieView.swift */,
 				D3CE920727E5A42F0045805A /* SearchVM.swift */,
 			);
@@ -284,6 +287,7 @@
 				D38CA74A27C666990022557A /* Trailer.swift in Sources */,
 				D39B04D227C1F54C009347A6 /* Episode.swift in Sources */,
 				D3CE920627E5A3F10045805A /* SearchView.swift in Sources */,
+				D3CE924527EC9A6E0045805A /* SearchResultsGrid.swift in Sources */,
 				D39B04D427C20405009347A6 /* CustomTabSwitcher.swift in Sources */,
 				D39B04BA27BFB93D009347A6 /* HomeView.swift in Sources */,
 				D38CA74F27C667C70022557A /* VideoPreviewImage.swift in Sources */,

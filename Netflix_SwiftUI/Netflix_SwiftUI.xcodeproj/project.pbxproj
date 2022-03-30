@@ -38,6 +38,9 @@
 		D3CE920A27E5A83F0045805A /* GenerateMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE920927E5A83F0045805A /* GenerateMovies.swift */; };
 		D3CE924327E8E1970045805A /* PopularMovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE924227E8E1970045805A /* PopularMovieView.swift */; };
 		D3CE924527EC9A6E0045805A /* SearchResultsGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE924427EC9A6E0045805A /* SearchResultsGrid.swift */; };
+		D3CE924727F4A1520045805A /* ComingSoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE924627F4A1520045805A /* ComingSoon.swift */; };
+		D3CE924A27F4A19A0045805A /* NotificationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE924927F4A19A0045805A /* NotificationBar.swift */; };
+		D3CE924C27F4A52A0045805A /* ComingSoonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE924B27F4A52A0045805A /* ComingSoonRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +75,9 @@
 		D3CE920927E5A83F0045805A /* GenerateMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateMovies.swift; sourceTree = "<group>"; };
 		D3CE924227E8E1970045805A /* PopularMovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMovieView.swift; sourceTree = "<group>"; };
 		D3CE924427EC9A6E0045805A /* SearchResultsGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsGrid.swift; sourceTree = "<group>"; };
+		D3CE924627F4A1520045805A /* ComingSoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoon.swift; sourceTree = "<group>"; };
+		D3CE924927F4A19A0045805A /* NotificationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationBar.swift; sourceTree = "<group>"; };
+		D3CE924B27F4A52A0045805A /* ComingSoonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +132,7 @@
 		D39B04A927BFB6FC009347A6 /* Netflix_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				D3CE924827F4A1880045805A /* ComingSoon */,
 				D3CE91FE27E55DC50045805A /* Search */,
 				D39B04AA27BFB6FC009347A6 /* Netflix_SwiftUIApp.swift */,
 				D39B04AC27BFB6FC009347A6 /* ContentView.swift */,
@@ -201,6 +208,16 @@
 				D3CE920727E5A42F0045805A /* SearchVM.swift */,
 			);
 			path = Search;
+			sourceTree = "<group>";
+		};
+		D3CE924827F4A1880045805A /* ComingSoon */ = {
+			isa = PBXGroup;
+			children = (
+				D3CE924627F4A1520045805A /* ComingSoon.swift */,
+				D3CE924B27F4A52A0045805A /* ComingSoonRow.swift */,
+				D3CE924927F4A19A0045805A /* NotificationBar.swift */,
+			);
+			path = ComingSoon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,9 +300,11 @@
 				D39B04C327BFBBDD009347A6 /* GlobalHelpers.swift in Sources */,
 				D3CE920A27E5A83F0045805A /* GenerateMovies.swift in Sources */,
 				D3CE920827E5A42F0045805A /* SearchVM.swift in Sources */,
+				D3CE924A27F4A19A0045805A /* NotificationBar.swift in Sources */,
 				D3CE920227E55EEC0045805A /* Colors.swift in Sources */,
 				D38CA74A27C666990022557A /* Trailer.swift in Sources */,
 				D39B04D227C1F54C009347A6 /* Episode.swift in Sources */,
+				D3CE924727F4A1520045805A /* ComingSoon.swift in Sources */,
 				D3CE920627E5A3F10045805A /* SearchView.swift in Sources */,
 				D3CE924527EC9A6E0045805A /* SearchResultsGrid.swift in Sources */,
 				D39B04D427C20405009347A6 /* CustomTabSwitcher.swift in Sources */,
@@ -301,6 +320,7 @@
 				D38CA74827C65FAE0022557A /* MoreLikeThis.swift in Sources */,
 				D32F6BAC27DA5D3E005725AB /* HomeStack.swift in Sources */,
 				D3CE920027E55DCC0045805A /* SearchBar.swift in Sources */,
+				D3CE924C27F4A52A0045805A /* ComingSoonRow.swift in Sources */,
 				D39B04AB27BFB6FC009347A6 /* Netflix_SwiftUIApp.swift in Sources */,
 				D3BB1B3B27C6698B006719F1 /* TrailerList.swift in Sources */,
 				D39B04C927BFE7BE009347A6 /* SmallVerticalButton.swift in Sources */,

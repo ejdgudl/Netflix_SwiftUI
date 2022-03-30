@@ -41,6 +41,8 @@
 		D3CE924727F4A1520045805A /* ComingSoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE924627F4A1520045805A /* ComingSoon.swift */; };
 		D3CE924A27F4A19A0045805A /* NotificationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE924927F4A19A0045805A /* NotificationBar.swift */; };
 		D3CE924C27F4A52A0045805A /* ComingSoonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE924B27F4A52A0045805A /* ComingSoonRow.swift */; };
+		D3CE924E27F4ACE80045805A /* ComingSoonVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE924D27F4ACE80045805A /* ComingSoonVM.swift */; };
+		D3CE925027F4AE110045805A /* TrackbleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE924F27F4AE110045805A /* TrackbleScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +80,8 @@
 		D3CE924627F4A1520045805A /* ComingSoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoon.swift; sourceTree = "<group>"; };
 		D3CE924927F4A19A0045805A /* NotificationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationBar.swift; sourceTree = "<group>"; };
 		D3CE924B27F4A52A0045805A /* ComingSoonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonRow.swift; sourceTree = "<group>"; };
+		D3CE924D27F4ACE80045805A /* ComingSoonVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonVM.swift; sourceTree = "<group>"; };
+		D3CE924F27F4AE110045805A /* TrackbleScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackbleScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +218,8 @@
 			isa = PBXGroup;
 			children = (
 				D3CE924627F4A1520045805A /* ComingSoon.swift */,
+				D3CE924F27F4AE110045805A /* TrackbleScrollView.swift */,
+				D3CE924D27F4ACE80045805A /* ComingSoonVM.swift */,
 				D3CE924B27F4A52A0045805A /* ComingSoonRow.swift */,
 				D3CE924927F4A19A0045805A /* NotificationBar.swift */,
 			);
@@ -308,6 +314,7 @@
 				D3CE920627E5A3F10045805A /* SearchView.swift in Sources */,
 				D3CE924527EC9A6E0045805A /* SearchResultsGrid.swift in Sources */,
 				D39B04D427C20405009347A6 /* CustomTabSwitcher.swift in Sources */,
+				D3CE924E27F4ACE80045805A /* ComingSoonVM.swift in Sources */,
 				D39B04BA27BFB93D009347A6 /* HomeView.swift in Sources */,
 				D38CA74F27C667C70022557A /* VideoPreviewImage.swift in Sources */,
 				D39B04C527BFBDB2009347A6 /* HomeVM.swift in Sources */,
@@ -327,6 +334,7 @@
 				D39B04CB27BFF226009347A6 /* PlayButton.swift in Sources */,
 				D38CA74C27C666E10022557A /* SwiftUIVideoView.swift in Sources */,
 				D39B04D027C1EB11009347A6 /* MovieDetail.swift in Sources */,
+				D3CE925027F4AE110045805A /* TrackbleScrollView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

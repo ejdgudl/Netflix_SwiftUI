@@ -43,6 +43,7 @@
 		D3CE924C27F4A52A0045805A /* ComingSoonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE924B27F4A52A0045805A /* ComingSoonRow.swift */; };
 		D3CE924E27F4ACE80045805A /* ComingSoonVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE924D27F4ACE80045805A /* ComingSoonVM.swift */; };
 		D3CE925027F4AE110045805A /* TrackbleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE924F27F4AE110045805A /* TrackbleScrollView.swift */; };
+		D3CE925228047BF30045805A /* DownloadsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CE925128047BF30045805A /* DownloadsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,7 @@
 		D3CE924B27F4A52A0045805A /* ComingSoonRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonRow.swift; sourceTree = "<group>"; };
 		D3CE924D27F4ACE80045805A /* ComingSoonVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComingSoonVM.swift; sourceTree = "<group>"; };
 		D3CE924F27F4AE110045805A /* TrackbleScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackbleScrollView.swift; sourceTree = "<group>"; };
+		D3CE925128047BF30045805A /* DownloadsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				D39B04CE27C1EAD3009347A6 /* Helpers */,
 				D39B04AE27BFB6FE009347A6 /* Assets.xcassets */,
 				D39B04B027BFB6FE009347A6 /* Preview Content */,
+				D3CE925128047BF30045805A /* DownloadsView.swift */,
 			);
 			path = Netflix_SwiftUI;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 			files = (
 				D3CE924327E8E1970045805A /* PopularMovieView.swift in Sources */,
 				D39B04C327BFBBDD009347A6 /* GlobalHelpers.swift in Sources */,
+				D3CE925228047BF30045805A /* DownloadsView.swift in Sources */,
 				D3CE920A27E5A83F0045805A /* GenerateMovies.swift in Sources */,
 				D3CE920827E5A42F0045805A /* SearchVM.swift in Sources */,
 				D3CE924A27F4A19A0045805A /* NotificationBar.swift in Sources */,

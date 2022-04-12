@@ -28,7 +28,6 @@ struct HomeStack: View {
                             movie in
                             StandardHomeMovie(movie: movie)
                                 .frame(width: 100, height: 200)
-                                .padding(.horizontal, 20)
                                 .onTapGesture {
                                     movieDetailToShow = movie
                                 }
@@ -36,6 +35,7 @@ struct HomeStack: View {
                     }
                 }
             }
+            .padding(.leading, 6)
         }
     }
 }

@@ -51,6 +51,8 @@ struct Movie: Identifiable {
     var cast: String
     var moreLikeThisMovies: [Movie]
     var trailers: [Trailer]
+    var previewImageName: String
+    var previewVideoURL: URL?
 }
 
 struct CurrentEpisodeInfo: Hashable, Equatable {
